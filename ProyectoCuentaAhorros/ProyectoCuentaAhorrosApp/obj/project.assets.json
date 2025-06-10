@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CuentaAhorros/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CuentaAhorros.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CuentaAhorros.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CuentaAhorros/1.0.0": {
+      "type": "project",
+      "path": "../src/CuentaAhorros/CuentaAhorros.csproj",
+      "msbuildProject": "../src/CuentaAhorros/CuentaAhorros.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CuentaAhorros >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\juan felipe pelaez\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\juan felipe pelaez\\OneDrive\\Documentos\\8tavo semestre\\software\\pruebas unitarias\\tallerpruebasunitarias-JuanFelipep123\\ProyectoCuentaAhorros\\ProyectoCuentaAhorrosApp\\ProyectoCuentaAhorrosApp.csproj",
+      "projectName": "ProyectoCuentaAhorrosApp",
+      "projectPath": "C:\\Users\\juan felipe pelaez\\OneDrive\\Documentos\\8tavo semestre\\software\\pruebas unitarias\\tallerpruebasunitarias-JuanFelipep123\\ProyectoCuentaAhorros\\ProyectoCuentaAhorrosApp\\ProyectoCuentaAhorrosApp.csproj",
+      "packagesPath": "C:\\Users\\juan felipe pelaez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juan felipe pelaez\\OneDrive\\Documentos\\8tavo semestre\\software\\pruebas unitarias\\tallerpruebasunitarias-JuanFelipep123\\ProyectoCuentaAhorros\\ProyectoCuentaAhorrosApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\juan felipe pelaez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\juan felipe pelaez\\OneDrive\\Documentos\\8tavo semestre\\software\\pruebas unitarias\\tallerpruebasunitarias-JuanFelipep123\\ProyectoCuentaAhorros\\src\\CuentaAhorros\\CuentaAhorros.csproj": {
+              "projectPath": "C:\\Users\\juan felipe pelaez\\OneDrive\\Documentos\\8tavo semestre\\software\\pruebas unitarias\\tallerpruebasunitarias-JuanFelipep123\\ProyectoCuentaAhorros\\src\\CuentaAhorros\\CuentaAhorros.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
